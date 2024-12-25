@@ -122,7 +122,9 @@ bash
 Copy code
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 
+rosservice call /enable_motors "enable: true"
 
+rosrun teleop_twist_keyboard teleop_twist_keyboard.py cmd_vel:=/cmd_vel
 
 1. Cài đặt ROS đầy đủ
 Nếu ROS chưa được cài đặt hoặc bị thiếu thành phần, hãy cài đặt lại:
