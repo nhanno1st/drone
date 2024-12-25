@@ -107,7 +107,7 @@ Copy code
 sudo apt install ros-$ROS_DISTRO-hector-gazebo-plugins ros-$ROS_DISTRO-controller-man 
 https://github.com/tu-darmstadt-ros-pkg/hector_quadrotor
 
-
+sudo apt-get install ros-noetic-teleop-twist-keyboard
 
 Khi mở Ubuntu, bạn chỉ cần chạy lần lượt các lệnh sau:
 
