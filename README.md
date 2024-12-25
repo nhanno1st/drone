@@ -121,3 +121,25 @@ Nếu muốn điều khiển quadrotor:
 bash
 Copy code
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+
+
+
+1. Cài đặt ROS đầy đủ
+Nếu ROS chưa được cài đặt hoặc bị thiếu thành phần, hãy cài đặt lại:
+
+bash
+Copy code
+sudo apt update
+sudo apt install ros-noetic-desktop-full
+2. Source môi trường ROS
+Đảm bảo bạn đã source ROS environment. Chạy lệnh sau:
+
+bash
+Copy code
+source /opt/ros/noetic/setup.bash
+Để tự động source mỗi khi mở terminal, thêm dòng này vào file ~/.bashrc:
+
+bash
+Copy code
+echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
+source ~/.bashrc
