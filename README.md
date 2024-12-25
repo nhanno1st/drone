@@ -106,3 +106,18 @@ bash
 Copy code
 sudo apt install ros-$ROS_DISTRO-hector-gazebo-plugins ros-$ROS_DISTRO-controller-man 
 https://github.com/tu-darmstadt-ros-pkg/hector_quadrotor
+
+
+
+Khi mở Ubuntu, bạn chỉ cần chạy lần lượt các lệnh sau:
+
+bash
+Copy code
+source ~/.bashrc
+roscore
+roslaunch hector_quadrotor_gazebo quadrotor_empty_world.launch
+Nếu muốn điều khiển quadrotor:
+
+bash
+Copy code
+rosrun teleop_twist_keyboard teleop_twist_keyboard.py
